@@ -6,41 +6,66 @@
     <style>
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: #0d0d0d;
             color: #f2f2f2;
         }
         header {
             background: #111;
-            padding: 20px;
+            padding: 30px 20px;
             text-align: center;
             border-bottom: 2px solid #ff6600;
         }
+        header img {
+            max-height: 100px;
+            margin-bottom: 10px;
+        }
+        nav {
+            margin-top: 10px;
+        }
         nav a {
-            margin: 0 15px;
+            margin: 0 20px;
             color: #ff6600;
             text-decoration: none;
             font-weight: bold;
+            font-size: 16px;
         }
         .section {
-            padding: 40px;
-            max-width: 900px;
+            padding: 60px 20px;
+            max-width: 1000px;
             margin: auto;
+        }
+        .section h2 {
+            color: #ff6600;
+            margin-bottom: 20px;
         }
         .button {
             display: inline-block;
-            padding: 12px 20px;
+            padding: 14px 24px;
             background: #ff6600;
             color: #000;
             text-decoration: none;
             font-weight: bold;
-            border-radius: 6px;
+            border-radius: 8px;
+            transition: background 0.3s ease;
+        }
+        .button:hover {
+            background: #ffa64d;
+        }
+        footer {
+            background: #111;
+            color: #aaa;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            border-top: 1px solid #333;
         }
     </style>
 </head>
 <body>
 
 <header>
+    <img src="https://github.com/sunlabgamesstudios/sunlabgamesstudios.github.io/blob/main/FullLogo_Transparent%20resized%20for%20epic.png?raw=true" alt="SunLab Games Logo">
     <h1>SunLab Games</h1>
     <nav>
         <a href="#games">Games</a>
@@ -51,24 +76,28 @@
 
 <div class="section" id="home">
     <h2>Welcome to SunLab Games</h2>
-    <p>We build immersive indie games, VR experiences, and creative tools for players and creators.</p>
+    <p>We create immersive indie games, VR experiences, and creative tools for players and streamers. Our mission is to blend fun, challenge, and atmosphere into every title we release.</p>
 </div>
 
 <div class="section" id="games">
     <h2>Our Games</h2>
-    <p>More coming soon.</p>
+    <p>From horror survival to absurd food-based VR, our catalog is growing fast. Stay tuned for Spoon Man VR, Home Invaders, and more.</p>
 </div>
 
 <div class="section" id="launcher">
     <h2>SunLab Games Launcher</h2>
-    <p>The official launcher for all SunLab titles. Download updates, manage installs, and access exclusive content.</p>
+    <p>Manage your SunLab titles, download updates, and access exclusive content — all from one place.</p>
     <a class="button" href="YOUR_DOWNLOAD_LINK_HERE">Download Launcher</a>
 </div>
 
 <div class="section" id="about">
     <h2>About Us</h2>
-    <p>SunLab Games is an indie studio creating unique, atmospheric, and experimental games.</p>
+    <p>SunLab Games is an indie studio based in Kentucky, building modular, experimental, and streamer-friendly games. We’re passionate about creative freedom, technical polish, and community-driven development.</p>
 </div>
+
+<footer>
+    &copy; 2026 SunLab Games. All rights reserved. | Contact: support@sunlabgames.com
+</footer>
 
 </body>
 </html>
